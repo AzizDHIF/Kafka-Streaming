@@ -1,0 +1,14 @@
+=== Batch 2 | Group: json-group-2 ===
+------------------------------------------------------------
+[OK     ] Partition=0 | Offset=10 | ID=200 | User=101 | Amount=243.76 | Timestamp=2024-01-01 11:12:47 | Issues: none
+[OK     ] Partition=0 | Offset=11 | ID=3 | User=105 | Amount=115.75 | Timestamp=2024-01-01 10:00:34 | Issues: none
+[OK     ] Partition=0 | Offset=12 | ID=15 | User=108 | Amount=353.71 | Timestamp=2024-01-01 10:04:47 | Issues: none
+[OK     ] Partition=0 | Offset=13 | ID=17 | User=100 | Amount=364.4 | Timestamp=2024-01-01 10:05:41 | Issues: none
+[OK     ] Partition=0 | Offset=14 | ID=44 | User=103 | Amount=466.81 | Timestamp=2024-01-01 10:16:10 | Issues: none
+[OK     ] Partition=0 | Offset=15 | ID=71 | User=101 | Amount=185.83 | Timestamp=2024-01-01 10:26:47 | Issues: none
+[OK     ] Partition=0 | Offset=16 | ID=72 | User=105 | Amount=413.19 | Timestamp=2024-01-01 10:27:13 | Issues: none
+[OK     ] Partition=0 | Offset=17 | ID=92 | User=105 | Amount=480.91 | Timestamp=2024-01-01 10:34:21 | Issues: none
+[OK     ] Partition=0 | Offset=18 | ID=133 | User=101 | Amount=289.13 | Timestamp=2024-01-01 10:48:46 | Issues: none
+[OK     ] Partition=0 | Offset=19 | ID=141 | User=106 | Amount=435.29 | Timestamp=2024-01-01 10:51:07 | Issues: none
+------------------------------------------------------------
+Total=20 | Valid=20 | Invalid=0 | Total Amount=6571.62

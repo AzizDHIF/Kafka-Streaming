@@ -1,0 +1,12 @@
+=== Batch 7 | Group: json-group-2 (final) ===
+------------------------------------------------------------
+[OK     ] Partition=2 | Offset=18 | ID=47 | User=104 | Amount=86.5 | Timestamp=2024-01-01 10:17:13 | Issues: none
+[OK     ] Partition=2 | Offset=19 | ID=54 | User=108 | Amount=45.44 | Timestamp=2024-01-01 10:20:44 | Issues: none
+[OK     ] Partition=2 | Offset=20 | ID=82 | User=107 | Amount=11.89 | Timestamp=2024-01-01 10:30:13 | Issues: none
+[OK     ] Partition=2 | Offset=21 | ID=84 | User=100 | Amount=56.63 | Timestamp=2024-01-01 10:31:16 | Issues: none
+[OK     ] Partition=2 | Offset=22 | ID=153 | User=108 | Amount=95.77 | Timestamp=2024-01-01 10:55:56 | Issues: none
+[OK     ] Partition=2 | Offset=23 | ID=157 | User=107 | Amount=88.05 | Timestamp=2024-01-01 10:57:20 | Issues: none
+[OK     ] Partition=2 | Offset=24 | ID=160 | User=100 | Amount=45.21 | Timestamp=2024-01-01 10:58:28 | Issues: none
+[OK     ] Partition=2 | Offset=25 | ID=173 | User=103 | Amount=56.27 | Timestamp=2024-01-01 11:03:18 | Issues: none
+------------------------------------------------------------
+Total=68 | Valid=68 | Invalid=0 | Total Amount=4009.92

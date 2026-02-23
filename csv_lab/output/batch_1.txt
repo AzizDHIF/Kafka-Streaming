@@ -1,0 +1,14 @@
+=== Batch 1 | Group: csv-group-3 ===
+------------------------------------------------------------
+Partition=0 | Offset=0      | Value=8,102,105.6,2024-01-01 10:02:16
+Partition=0 | Offset=1      | Value=10,106,170.17,2024-01-01 10:03:09
+Partition=0 | Offset=2      | Value=14,106,82.01,2024-01-01 10:04:37
+Partition=0 | Offset=3      | Value=15,108,353.71,2024-01-01 10:04:47
+Partition=0 | Offset=4      | Value=16,108,381.58,2024-01-01 10:05:04
+Partition=0 | Offset=5      | Value=17,100,364.4,2024-01-01 10:05:41
+Partition=0 | Offset=6      | Value=19,103,251.95,2024-01-01 10:06:43
+Partition=0 | Offset=7      | Value=23,110,256.05,2024-01-01 10:07:55
+Partition=0 | Offset=8      | Value=25,108,57.54,2024-01-01 10:08:45
+Partition=0 | Offset=9      | Value=29,103,447.84,2024-01-01 10:10:46
+------------------------------------------------------------
+Total messages so far: 10

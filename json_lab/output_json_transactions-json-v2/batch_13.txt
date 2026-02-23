@@ -1,0 +1,14 @@
+=== Batch 13 | Group: json-group-2 ===
+------------------------------------------------------------
+[INVALID] Partition=2 | Offset=39 | ID=121 | User=None | Amount=299.71 | Timestamp=2024-01-01 10:44:52 | Issues: missing fields: ['user_id']
+[INVALID] Partition=1 | Offset=44 | ID=122 | User=None | Amount=103.83 | Timestamp=2024-01-01 10:44:59 | Issues: missing fields: ['user_id']
+[INVALID] Partition=0 | Offset=37 | ID=123 | User=None | Amount=490.01 | Timestamp=2024-01-01 10:45:20 | Issues: missing fields: ['user_id']
+[INVALID] Partition=1 | Offset=45 | ID=124 | User=None | Amount=334.27 | Timestamp=2024-01-01 10:45:25 | Issues: missing fields: ['user_id']
+[INVALID] Partition=1 | Offset=46 | ID=125 | User=None | Amount=14.78 | Timestamp=2024-01-01 10:45:55 | Issues: missing fields: ['user_id']
+[INVALID] Partition=1 | Offset=47 | ID=126 | User=None | Amount=451.47 | Timestamp=2024-01-01 10:46:18 | Issues: missing fields: ['user_id']
+[INVALID] Partition=0 | Offset=38 | ID=127 | User=None | Amount=427.17 | Timestamp=2024-01-01 10:46:35 | Issues: missing fields: ['user_id']
+[INVALID] Partition=1 | Offset=48 | ID=128 | User=None | Amount=363.5 | Timestamp=2024-01-01 10:46:42 | Issues: missing fields: ['user_id']
+[INVALID] Partition=2 | Offset=40 | ID=129 | User=None | Amount=167.8 | Timestamp=2024-01-01 10:47:09 | Issues: missing fields: ['user_id']
+[INVALID] Partition=0 | Offset=39 | ID=130 | User=None | Amount=7.21 | Timestamp=2024-01-01 10:47:28 | Issues: missing fields: ['user_id']
+------------------------------------------------------------
+Total=130 | Valid=0 | Invalid=130 | Total Amount=0.0

@@ -1,0 +1,24 @@
+=== Batch 1 | Group: csv-group-dirty-3 ===
+------------------------------------------------------------
+[INVALID] Partition=0 | Offset=0 | Value=3,101,,2024-01-01 10:01:10
+         Issues: empty amount
+[OK    ] Partition=0 | Offset=1 | Value=10,104,199.99,2024-01-01 10:06:15
+         Issues: none
+[OK    ] Partition=0 | Offset=2 | Value=2,102,250.5,2024-01-01 10:00:20
+         Issues: none
+[INVALID] Partition=0 | Offset=3 | Value=11,107,55.0,
+         Issues: empty timestamp
+[OK    ] Partition=1 | Offset=0 | Value=1,101,19.99,2024-01-01 10:00:05
+         Issues: none
+[INVALID] Partition=1 | Offset=1 | Value=2,102,250.5,2024-01-01 10:00:20
+         Issues: duplicate row
+[INVALID] Partition=1 | Offset=2 | Value=4,abc,89.9,2024-01-01 10:02:00
+         Issues: non-numeric user_id: 'abc'
+[OK    ] Partition=1 | Offset=3 | Value=5,104,42.75,2024-01-01 10:02:45
+         Issues: none
+[INVALID] Partition=1 | Offset=4 | Value=6,102,15.2,not-a-date
+         Issues: invalid timestamp format: 'not-a-date'
+[OK    ] Partition=1 | Offset=5 | Value=7,105,310.0,2024-01-01 10:04:10
+         Issues: none
+------------------------------------------------------------
+Total=10 | Valid=5 | Invalid=5

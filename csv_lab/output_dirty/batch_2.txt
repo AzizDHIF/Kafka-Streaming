@@ -1,0 +1,12 @@
+=== Batch 2 | Group: csv-group-dirty-3 (final) ===
+------------------------------------------------------------
+[OK    ] Partition=1 | Offset=6 | Value=8,101,12.99,2024-01-01 10:05:00
+         Issues: none
+[INVALID] Partition=1 | Offset=7 | Value=13,109
+         Issues: wrong column count: expected 4, got 2
+[INVALID] Partition=2 | Offset=0 | Value=9,106,seven,2024-01-01 10:05:40
+         Issues: non-numeric amount: 'seven'
+[INVALID] Partition=2 | Offset=1 | Value=12,108,20.0,2024/01/01 10:10:00
+         Issues: invalid timestamp format: '2024/01/01 10:10:00'
+------------------------------------------------------------
+Total=14 | Valid=6 | Invalid=8

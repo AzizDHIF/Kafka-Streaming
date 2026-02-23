@@ -1,0 +1,14 @@
+=== Batch 1 | Group: json-group-dirty-1 ===
+------------------------------------------------------------
+[OK     ] Partition=0 | Offset=0 | ID=1 | User=101 | Amount=19.99 | Timestamp=2024-01-01 10:00:05 | Issues: none
+[INVALID] Partition=0 | Offset=1 | ID=4 | User=abc | Amount=89.9 | Timestamp=2024-01-01 10:02:00 | Issues: non-numeric user_id: 'abc'
+[OK     ] Partition=0 | Offset=2 | ID=5 | User=104 | Amount=42.75 | Timestamp=2024-01-01 10:02:45 | Issues: none
+[OK     ] Partition=0 | Offset=3 | ID=7 | User=105 | Amount=310.0 | Timestamp=2024-01-01 10:04:10 | Issues: none
+[OK     ] Partition=0 | Offset=4 | ID=8 | User=101 | Amount=12.99 | Timestamp=2024-01-01 10:05:00 | Issues: none
+[OK     ] Partition=0 | Offset=5 | ID=10 | User=104 | Amount=199.99 | Timestamp=2024-01-01 10:06:15 | Issues: none
+[INVALID] Partition=0 | Offset=6 | ID=12 | User=108 | Amount=20.0 | Timestamp=2024/01/01 10:10:00 | Issues: invalid timestamp format: '2024/01/01 10:10:00'
+[OK     ] Partition=1 | Offset=0 | ID=2 | User=102 | Amount=250.5 | Timestamp=2024-01-01 10:00:20 | Issues: none
+[INVALID] Partition=1 | Offset=1 | ID=6 | User=102 | Amount=15.2 | Timestamp=not-a-date | Issues: invalid timestamp format: 'not-a-date'
+[OK     ] Partition=2 | Offset=0 | ID=2 | User=102 | Amount=250.5 | Timestamp=2024-01-01 10:00:20 | Issues: none
+------------------------------------------------------------
+Total=10 | Valid=7 | Invalid=3 | Total Amount=1086.72

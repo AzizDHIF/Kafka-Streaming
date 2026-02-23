@@ -1,0 +1,6 @@
+=== Batch 34 | Group: json-group-2 (final) ===
+------------------------------------------------------------
+[OK     ] Partition=2 | Offset=123 | ID=191 | User=105 | Amount=229.88 | Timestamp=2024-01-01 11:09:30 | Issues: none
+[OK     ] Partition=2 | Offset=124 | ID=199 | User=109 | Amount=449.43 | Timestamp=2024-01-01 11:12:31 | Issues: none
+------------------------------------------------------------
+Total=332 | Valid=332 | Invalid=0 | Total Amount=101513.22
